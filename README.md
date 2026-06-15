@@ -24,6 +24,21 @@ A deep learning system that classifies speech recordings as **Genuine (Human)** 
 
 ---
 
+## 📦 Deliverables Checklist
+
+- [x] **GITHUB REPOSITORY**: Codebase ready
+- [x] **STREAMLIT WEB APP (HOSTED)**: Deployed to Hugging Face Spaces!
+- [x] **ipynb notebook with full running code**: `Deepfake_Audio_Detection.ipynb`
+- [x] **Trained model**: `models/best_model.pth`
+- [x] **Python script for testing new samples**: `predict.py`
+- [x] **Performance report**: Found in `reports/` and printed to console.
+- [x] **Description of preprocessing, feature extraction, and model architecture**: See [Architecture](#-architecture)
+- [x] **Clear and detailed README.md**: You're reading it!
+- [x] **Receives an audio file as input**: Fully supported via CLI and Web App.
+- [x] **Returns Genuine/Deepfake + confidence score**: Fully supported.
+
+---
+
 ## 📋 Table of Contents
 - [Overview](#overview)
 - [Architecture](#architecture)
