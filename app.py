@@ -437,7 +437,7 @@ def main():
             
             # Waveform
             fig_wave = plot_waveform(result["audio_processed"], SAMPLE_RATE)
-            st.pyplot(fig_wave)
+            st.pyplot(fig_wave, use_container_width=True)
             plt.close(fig_wave)
             
             # Spectrogram and MFCC in tabs
@@ -445,12 +445,12 @@ def main():
             
             with tab1:
                 fig_mel = plot_mel_spectrogram(result["audio_processed"], SAMPLE_RATE)
-                st.pyplot(fig_mel)
+                st.pyplot(fig_mel, use_container_width=True)
                 plt.close(fig_mel)
             
             with tab2:
                 fig_mfcc = plot_mfcc(result["audio_processed"], SAMPLE_RATE)
-                st.pyplot(fig_mfcc)
+                st.pyplot(fig_mfcc, use_container_width=True)
                 plt.close(fig_mfcc)
         
         finally:
