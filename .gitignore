@@ -1,0 +1,47 @@
+# Dataset (too large for git)
+data/
+*.wav
+*.mp3
+*.flac
+
+# Model checkpoints
+models/*.pth
+models/*.pt
+!models/.gitkeep
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+runs/
+lightning_logs/
+
+# Cache
+.cache/
+features_cache/
